@@ -15,6 +15,8 @@
 		0F6E41E6210736B200D0A179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E41E5210736B200D0A179 /* main.m */; };
 		0F6E41F0210736B200D0A179 /* ADDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E41EF210736B200D0A179 /* ADDemoTests.m */; };
 		0F6E41FB210736B200D0A179 /* ADDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E41FA210736B200D0A179 /* ADDemoUITests.m */; };
+		0F6E420A2107371A00D0A179 /* AdImageButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E42082107371900D0A179 /* AdImageButtonView.m */; };
+		0F6E420E210738B400D0A179 /* ADTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E420C210738B400D0A179 /* ADTestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0F6E41F6210736B200D0A179 /* ADDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6E41FA210736B200D0A179 /* ADDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADDemoUITests.m; sourceTree = "<group>"; };
 		0F6E41FC210736B200D0A179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6E42082107371900D0A179 /* AdImageButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdImageButtonView.m; sourceTree = "<group>"; };
+		0F6E42092107371900D0A179 /* AdImageButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdImageButtonView.h; sourceTree = "<group>"; };
+		0F6E420C210738B400D0A179 /* ADTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTestView.m; sourceTree = "<group>"; };
+		0F6E420D210738B400D0A179 /* ADTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTestView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 		0F6E41D5210736B000D0A179 /* ADDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0F6E420B210738A200D0A179 /* adview */,
+				0F6E42092107371900D0A179 /* AdImageButtonView.h */,
+				0F6E42082107371900D0A179 /* AdImageButtonView.m */,
 				0F6E41D6210736B000D0A179 /* AppDelegate.h */,
 				0F6E41D7210736B000D0A179 /* AppDelegate.m */,
 				0F6E41D9210736B000D0A179 /* ViewController.h */,
@@ -130,6 +139,15 @@
 				0F6E41FC210736B200D0A179 /* Info.plist */,
 			);
 			path = ADDemoUITests;
+			sourceTree = "<group>";
+		};
+		0F6E420B210738A200D0A179 /* adview */ = {
+			isa = PBXGroup;
+			children = (
+				0F6E420D210738B400D0A179 /* ADTestView.h */,
+				0F6E420C210738B400D0A179 /* ADTestView.m */,
+			);
+			path = adview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F6E41DB210736B000D0A179 /* ViewController.m in Sources */,
+				0F6E420A2107371A00D0A179 /* AdImageButtonView.m in Sources */,
+				0F6E420E210738B400D0A179 /* ADTestView.m in Sources */,
 				0F6E41E6210736B200D0A179 /* main.m in Sources */,
 				0F6E41D8210736B000D0A179 /* AppDelegate.m in Sources */,
 			);
